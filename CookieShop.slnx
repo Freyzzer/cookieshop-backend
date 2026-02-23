@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="CookieShop.API/CookieShop.API.csproj" Id="49ef5089-d526-4a45-a996-974e79885d76" />
+  <Project Path="CookieShop.Application/CookieShop.Application.csproj" Id="6bf2eece-f331-470b-8d24-7dc6e746a828" />
+  <Project Path="CookieShop.Domain/CookieShop.Domain.csproj" Id="c8c87ee8-d953-42e0-90d6-108a20a9cd07" />
+  <Project Path="CookieShop.Infrastructure/CookieShop.Infrastructure.csproj" Id="73a5aa27-7b95-4c6a-810f-42650f2ed929" />
+</Solution>
