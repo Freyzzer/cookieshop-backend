@@ -9,16 +9,16 @@ namespace CookieShop.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    public class StripeWebhookController : ControllerBase
+    public class StripeController : ControllerBase
     {
         private readonly AppDbContext _context;
         private readonly IConfiguration _configuration;
-        private readonly ILogger<StripeWebhookController> _logger;
+        private readonly ILogger<StripeController> _logger;
 
-        public StripeWebhookController(
+        public StripeController(
             AppDbContext context, 
             IConfiguration configuration,
-            ILogger<StripeWebhookController> logger)
+            ILogger<StripeController> logger)
         {
             _context = context;
             _configuration = configuration;
