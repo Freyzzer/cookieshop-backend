@@ -4,7 +4,7 @@
 namespace CookieShop.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class PaymentsController: ControllerBase
     {
         private readonly IPaymentService _service;

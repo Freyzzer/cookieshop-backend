@@ -8,7 +8,7 @@ using Stripe;
 namespace CookieShop.API.Controllers
 {
     [ApiController]
-    [Route("api/webhooks/stripe")]
+    [Route("api/[controller]")]
     public class StripeWebhookController : ControllerBase
     {
         private readonly AppDbContext _context;

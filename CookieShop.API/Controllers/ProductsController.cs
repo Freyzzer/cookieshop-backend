@@ -4,7 +4,7 @@
 namespace CookieShop.API.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class ProductsController : ControllerBase
     {
         private readonly IProductService _service;
