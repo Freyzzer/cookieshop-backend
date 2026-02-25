@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CookieShop.Domain.Const;
+using System.ComponentModel.DataAnnotations;
 
 namespace CookieShop.Domain.Models
 {
@@ -18,6 +19,9 @@ namespace CookieShop.Domain.Models
 
         public int Stock { get; set; }
         public string ImageUrl { get; set; } = string.Empty;
+        public bool isNew { get; set; } = false;
+
+        public Categories category { get; set; } = Categories.Clasico;
         public bool IsActive { get; set; } = true;
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
